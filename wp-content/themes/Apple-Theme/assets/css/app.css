@@ -218,8 +218,12 @@ ul.products{
     justify-content: center !important;
     margin: 0 0 20px 0 !important;
 }
+div.button{
+    margin: 1rem !important;
+}
 
-.button{
+a.button{
+    margin: 1rem !important;
     border: none;
     background: linear-gradient(90deg, 
     #333333
@@ -237,7 +241,7 @@ ul.products{
 
 
 
-span.select2-selection__arrow{
+.select2, .select2-container ,.select2-container--default.selection,.select2-selection__arrow, .select2-selection__rendered, .select2-selection .select2-selection--single{
     
     width: 200px !important
 }
